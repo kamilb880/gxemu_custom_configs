@@ -1,22 +1,22 @@
 # GXemu Custom Configs
 
-Custom PS2 emulator configuration files for use with **GXemu** on PlayStation 3.
+Custom PS2 emulator configuration files for use with **GXemu** on PlayStation 3 (CECHC/E models).
 
-Each file is named after the game's PS2 serial ID (e.g. `SLUS_213.48`) and contains tuned emulation parameters to improve compatibility and performance.
+Each file is named after the game's PS2 serial ID (e.g. `SLUS_213.76`) and contains tuned emulation parameters to improve compatibility and performance.
 
 All configs in this repository have been **tested and verified**. For compatibility details, refer to wiki's table:  
 [PS2 GXemu Emulator Compatibility List](https://www.psdevwiki.com/ps3/PS2_GXemu_Emulator_Compatibility_List)
 
-**Remember to use Evilnat's CFW 4.92.2 or higher for external configs to be loaded!**
+**Keep in mind to use Evilnat's CFW 4.92.2 or higher for external configs to be loaded!**
 
 
 ## How to use
 
-1. Copy the config files to your PS3 at:
+1. Copy config files to your PS3's hard drive under:
    ```
    /hdd0/vm/gx/
    ```
-2. Launch selected PS2 game — modified GXemu will automatically pick the matching config file.
+2. Launch selected PS2 game — modified GXemu will automatically apply matching config file.
 
 ## Game List
 
@@ -132,6 +132,6 @@ All configs in this repository have been **tested and verified**. For compatibil
 
 ## Notes
 
-- Config files are identified by PS2 serial ID, not game title.
+- Config files are identified by PS2 serial ID, not game title. Keep the files named exactly as stored in this repo.
 - Multiple config files for the same title (e.g. Gran Turismo 4 has 6 PAL variants) cover different regional disc pressings.
 - Two-disc games (e.g. Growlanser Generations) have separate configs per disc.
