@@ -8,13 +8,13 @@ All configs in this repository have been **tested and verified**. For compatibil
 [PS2 GXemu Emulator Compatibility List](https://www.psdevwiki.com/ps3/PS2_GXemu_Emulator_Compatibility_List)
 
 **Keep in mind to use Evilnat's CFW 4.92.2 or higher for external configs to be loaded!**
-
+If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -> Custom Firmware Tools -> Updates -> PS2 EMUs MOD.
 
 ## How to use
 
 1. Copy config files to your PS3's hard drive under:
    ```
-   /hdd0/vm/gx/
+   /dev_hdd0/vm/gx/
    ```
 2. Launch selected PS2 game — modified GXemu will automatically apply matching config file.
 
@@ -129,6 +129,7 @@ All configs in this repository have been **tested and verified**. For compatibil
 | PAL | Europe (SCES, SLES) |
 | NTSC-U | USA / Canada (SCUS, SLUS) |
 | NTSC-J | Japan / Korea / Asia (SCPM, SCPS, SLKA, SLPM, SLPS) |
+| NTSC-C | China Mainland (SCCS) |
 
 ## Notes
 
