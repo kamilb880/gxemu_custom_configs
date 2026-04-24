@@ -126,9 +126,9 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 
 | Code | Region |
 |---|---|
-| PAL | Europe (SCES, SLES) |
+| PAL | Europe (SCES, SLES, SCED, SLED) |
 | NTSC-U | USA / Canada (SCUS, SLUS) |
-| NTSC-J | Japan / Korea / Asia (SCPM, SCPS, SLKA, SLPM, SLPS) |
+| NTSC-J | Japan / Korea / Asia / Hong Kong (SCPM, SCPS, SLKA, SLPM, SLPS, SCAJ, SLAJ) |
 | NTSC-C | China Mainland (SCCS) |
 
 ## Notes
