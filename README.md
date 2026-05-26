@@ -40,6 +40,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 | Devil May Cry 2 | PAL | `SLES_525.18` |
 | Devil May Cry 2 | NTSC-J | `SLPM_625.64` |
 | Devil May Cry 3: Dantes Awakening | PAL | `SLES_539.98` |
+| Disney Golf | NTSC-U | `SLUS_205.32` |
 | Evil Twin: Cypriens Chronicles | PAL | `SLES_502.01` |
 | Evolution Snowboarding | NTSC-U | `SLUS_205.46` |
 | Final Fantasy X | PAL | `SLES_511.56` |
