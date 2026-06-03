@@ -90,10 +90,6 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 | Prince of Persia: The Sands of Time | NTSC-J | `SLPM_658.72` |
 | R: Racing Evolution | NTSC-U | `SLUS_207.21` |
 | Rally Fusion | NTSC-U | `SLUS_203.61` |
-| Ratchet and Clank | PAL | `SLES_517.13` |
-| Ratchet and Clank | NTSC-J | `SLPM_652.31` |
-| Ratchet and Clank 2: Locked and Loaded | PAL | `SLES_530.65` |
-| Ratchet: Gladiator | PAL | `SLES_538.31` |
 | Resident Evil - Gun Survivor 2 | PAL | `SLES_506.50` |
 | Secret Agent Clank | NTSC-U | `SCUS_976.23` |
 | Shadow of the Colossus | PAL | `SLES_545.45` |
