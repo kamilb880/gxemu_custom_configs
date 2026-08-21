@@ -25,9 +25,9 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tbody>
 <tr><td>Backyard Wrestling - Don't Try This At Home</td><td nowrap>NTSC-U</td><td>SLUS_206.38</td><td>Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion.</td></tr>
 <tr><td>Backyard Wrestling 2 - There Goes the Neighborhood</td><td nowrap>NTSC-U</td><td>SLUS_210.43</td><td>Config fixes textures flickering and screen shaking almost complately, but sound distortion is still present.</td></tr>
-<tr><td>Bard's Tale</td><td nowrap>PAL</td><td>SLES_531.54</td><td>Config fixes flickering textures.</td></tr>
+<tr><td>Bard's Tale, The</td><td nowrap>PAL</td><td>SLES_531.54</td><td>Config fixes flickering textures.</td></tr>
 <tr><td>Bard's Tale, The</td><td nowrap>NTSC-U</td><td>SLUS_208.03</td><td>Config fixes flickering textures.</td></tr>
-<tr><td>The Battleship</td><td nowrap>NTSC-J</td><td>SLPM_624.97</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Battleship, The </td><td nowrap>NTSC-J</td><td>SLPM_624.97</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>Black</td><td nowrap>NTSC-U</td><td>SLUS_213.76</td><td>Config fixes character teleporting and camera spinning at end of fourth level.</td></tr>
 <tr><td>Blockbuster Hyper</td><td nowrap>NTSC-J</td><td>SLPM_621.71</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>Bloodrayne 2</td><td nowrap>NTSC-U</td><td>SLUS_208.62</td><td>Config fixes white diagonal on-screen line and pixelated texture glitches.</td></tr>
@@ -42,8 +42,8 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tr><td>Crash Tag Team Racing</td><td nowrap>NTSC-U</td><td>SLUS_211.91</td><td>Config fixes coin FPS issue.</td></tr>
 <tr><td>Crash Twinsanity</td><td nowrap>PAL</td><td>SLES_525.68</td><td>Config fixes loading saved game freeze and random ingame freezes. Use game v2.00, as in v1.00 there is possible freeze after Dingodile boss fight - this is a fault of the unpatched game itself, not an emulation issue.</td></tr>
 <tr><td>Crazy Taxi</td><td nowrap>NTSC-U</td><td>SLUS_202.02</td><td>Config for NTSC-U version works properly with 'Greatest Hits' version of the game, but it also requires fixed gxemu.</td></tr>
-<tr><td>The Daibijin</td><td nowrap>NTSC-J</td><td>SLPM_624.84</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
-<tr><td>The Daikiju</td><td nowrap>NTSC-J</td><td>SLPM_624.93</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Daibijin, The</td><td nowrap>NTSC-J</td><td>SLPM_624.84</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Daikiju, The</td><td nowrap>NTSC-J</td><td>SLPM_624.93</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>David Douillet Judo</td><td nowrap>PAL</td><td>SLES_543.66</td><td>Config fixes missing portraits and stats while competitors selecting.</td></tr>
 <tr><td>Dawn of Mana</td><td nowrap>NTSC-U</td><td>SLUS_215.74</td><td>Config fixes missing geometry and looped sound effects.</td></tr>
 <tr><td>Demolition Girl</td><td nowrap>PAL</td><td>SLES_534.03</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
@@ -53,7 +53,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tr><td>Evolution Snowboarding</td><td nowrap>PAL</td><td>SLES_513.92</td><td>Config fixes black screen after Konami logo.</td></tr>
 <tr><td>Evolution Snowboarding</td><td nowrap>NTSC-J</td><td>SLKA_250.14</td><td>Config fixes black screen after Konami logo.</td></tr>
 <tr><td>Fighting Angels</td><td nowrap>PAL</td><td>SLES_534.08</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
-<tr><td>The Gassen Sekigahara</td><td nowrap>NTSC-J</td><td>SLPM_624.77</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Gassen Sekigahara, The</td><td nowrap>NTSC-J</td><td>SLPM_624.77</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>Gran Turismo 3 - A-Spec</td><td nowrap>NTSC-U</td><td>SCUS_971.02</td><td>Config fixes the FMV stuttering, image shaking on car selection screen</td></tr>
 <tr><td>Growlanser Generations [Disc 1]</td><td nowrap>NTSC-U</td><td>SLUS_207.58</td><td>Config fixes freeze on save game attempt.</td></tr>
 <tr><td>Growlanser Generations [Disc 2]</td><td nowrap>NTSC-U</td><td>SLUS_207.59</td><td>Config fixes freeze on save game attempt.</td></tr>
@@ -85,7 +85,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tr><td>Rally Fusion - Race of Champions</td><td nowrap>NTSC-U</td><td>SLUS_203.61</td><td>Config (required for both PAL and NTSC versions) fixes freezing upon entering a race and opening start menu bug/freeze.</td></tr>
 <tr><td>Rally Fusion - Race of Champions</td><td nowrap>PAL</td><td>SLES_509.97</td><td>Config (required for both PAL and NTSC versions) fixes freezing upon entering a race, opening start menu bug/freeze, and significantly improves frame rate.</td></tr>
 <tr><td>Resident Evil Gun Survivor 2 - Code Veronica</td><td nowrap>PAL</td><td>SLES_506.50</td><td>Config from netemu increases FPS a bit, but there are still FPS slowdowns. The game is playable though.</td></tr>
-<tr><td>The Runaway - Toumei Highway</td><td nowrap>NTSC-J</td><td>SLPM_625.64</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Runaway - Toumei Highway, The</td><td nowrap>NTSC-J</td><td>SLPM_625.64</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>Secret Agent Clank</td><td nowrap>NTSC-U</td><td>SCUS_976.23</td><td>Config fixes walk/run calculations and Fort Sprocket softlock caused by robot falling through floor.</td></tr>
 <tr><td>Shadow of Zorro, The</td><td nowrap>PAL</td><td>SLES_506.62</td><td>Config fixes PS3 shutdown when creating save file.</td></tr>
 <tr><td>Shin Megami Tensei - Persona 4</td><td nowrap>NTSC-U</td><td>SLUS_217.82</td><td>Config restores missing HUD elements.</td></tr>
@@ -93,7 +93,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tr><td>Silent Hill 2</td><td nowrap>NTSC-U</td><td>SLUS_202.28</td><td>Config fixes James disappearing leg issue.</td></tr>
 <tr><td>Silent Hill 2 - Director's Cut</td><td nowrap>PAL</td><td>SLES_511.56</td><td>Config fixes James disappearing leg issue.</td></tr>
 <tr><td>Silent Hill 3</td><td nowrap>NTSC-U</td><td>SLUS_206.22</td><td>Config fixes camera inaccuracies.</td></tr>
-<tr><td>The Silent Hill Collection</td><td nowrap>PAL</td><td>SLES_503.82</td><td>Config fixes James disappearing leg issue.</td></tr>
+<tr><td>Silent Hill Collection, The</td><td nowrap>PAL</td><td>SLES_503.82</td><td>Config fixes James disappearing leg issue.</td></tr>
 <tr><td>SNK vs Capcom Chaos</td><td nowrap>NTSC-J</td><td>SLPS_253.16</td><td>Config fixes slowdown and flickering graphics.</td></tr>
 <tr><td>SSX</td><td nowrap>NTSC-U</td><td>SLUS_200.95</td><td>Config fixes freezes</td></tr>
 <tr><td>Star Wars - Clone Wars</td><td nowrap>NTSC-U</td><td>SLUS_205.10</td><td>Config fixes freeze in 1st mission</td></tr>
@@ -104,7 +104,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tr><td>Summoner 2</td><td nowrap>NTSC-U</td><td>SLUS_204.48</td><td>Config fixes black screen during the opening FMV sequence.</td></tr>
 <tr><td>Tales of the Abyss</td><td nowrap>NTSC-J</td><td>SLPS_255.86</td><td>Config fixes freeze at Choral Castle.</td></tr>
 <tr><td>Tales of the Abyss</td><td nowrap>NTSC-U</td><td>SLUS_213.86</td><td>Config fixes freeze at Choral Castle.</td></tr>
-<tr><td>The Toubou Prisoner</td><td nowrap>NTSC-J</td><td>SLPS_204.80</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Toubou Prisoner, The</td><td nowrap>NTSC-J</td><td>SLPS_204.80</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>True Crime - New York City</td><td nowrap>NTSC-J</td><td>SLPM_664.73</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
 <tr><td>True Crime - New York City</td><td nowrap>PAL</td><td>SLES_536.16</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
 <tr><td>True Crime - New York City</td><td nowrap>PAL</td><td>SLES_536.18</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
