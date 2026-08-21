@@ -25,7 +25,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 <tbody>
 <tr><td>Backyard Wrestling - Don't Try This At Home</td><td nowrap>NTSC-U</td><td>SLUS_206.38</td><td>Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion.</td></tr>
 <tr><td>Backyard Wrestling 2 - There Goes the Neighborhood</td><td nowrap>NTSC-U</td><td>SLUS_210.43</td><td>Config fixes textures flickering and screen shaking almost complately, but sound distortion is still present.</td></tr>
-<tr><td>Bard's Tale, The</td><td nowrap>PAL</td><td>SLES_531.54</td><td>Config fixes flickering textures.</td></tr>
+<tr><td>Bard's Tale</td><td nowrap>PAL</td><td>SLES_531.54</td><td>Config fixes flickering textures.</td></tr>
 <tr><td>Bard's Tale, The</td><td nowrap>NTSC-U</td><td>SLUS_208.03</td><td>Config fixes flickering textures.</td></tr>
 <tr><td>Battleship, The </td><td nowrap>NTSC-J</td><td>SLPM_624.97</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
 <tr><td>Black</td><td nowrap>NTSC-U</td><td>SLUS_213.76</td><td>Config fixes character teleporting and camera spinning at end of fourth level.</td></tr>
