@@ -22,6 +22,7 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 
 | Game Title | Region | Config File ID | Custom config description |
 |---|---|---|---|
+| Backyard Wrestling - Don't Try This At Home | NTSC-U | `SLUS_206.38` | Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion. |
 | Backyard Wrestling 2 - There Goes the Neighborhood | NTSC-U | `SLUS_210.43` | Config fixes textures flickering and screen shaking almost complately, but sound distortion is still present. |
 | Bard's Tale | PAL | `SLES_531.54` | Config fixes flickering textures. |
 | Bard's Tale, The | NTSC-U | `SLUS_208.03` | Config fixes flickering textures. |
@@ -111,7 +112,6 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 | Women's Swim Meet | NTSC-J | `SLPM_625.34` | Config fixes SPS issues (Tamsoft engine game). |
 | Xenosaga - Episode I - Der Wille zur Macht | NTSC-U | `SLUS_204.69` | Config fixes immovable character at AGWS shop. |
 | Yakuza | NTSC-U | `SLUS_213.48` | Config fixes game crashes in Ch.7 when loading "Mysterious Organization" and Ch.13 when loading "MBI.", Ch.3 after the funeral and a fight scene in Ch. 5. and in Ch.10 in mid-battle. |
-| | Backyard Wrestling - Don't Try This At Home | NTSC-U | `SLUS_206.38` | Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion. |
 
 ## Region Codes
 
