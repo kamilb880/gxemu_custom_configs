@@ -20,98 +20,101 @@ If configs are still not loaded on emu start, check XAI Plugin in XMB: Network -
 
 ## Game List
 
-| Game Title | Region | Config File ID | Custom config description |
-|---|---|---|---|
-| Backyard Wrestling - Don't Try This At Home | NTSC-U | SLUS_206.38 | Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion. |
-| Backyard Wrestling 2 - There Goes the Neighborhood | NTSC-U | SLUS_210.43 | Config fixes textures flickering and screen shaking almost complately, but sound distortion is still present. |
-| Bard's Tale | PAL | SLES_531.54 | Config fixes flickering textures. |
-| Bard's Tale, The | NTSC-U | SLUS_208.03 | Config fixes flickering textures. |
-| The Battleship | NTSC-J | SLPM_624.97 | Config fixes SPS issues (Tamsoft engine game). |
-| Black | NTSC-U | SLUS_213.76 | Config fixes character teleporting and camera spinning at end of fourth level. |
-| Blockbuster Hyper | NTSC-J | SLPM_621.71 | Config fixes SPS issues (Tamsoft engine game). |
-| Bloodrayne 2 | NTSC-U | SLUS_208.62 | Config fixes white diagonal on-screen line and pixelated texture glitches. |
-| Buffy the Vampire Slayer - Chaos Bleeds | NTSC-U | SLUS_205.66 | Config fixes VIF1 issues (missing textures, overall slowdown). |
-| Buffy the Vampire Slayer - Chaos Bleeds | PAL | SLES_518.90 | Config fixes flickering graphics and frame drops (VIF1 issue). |
-| Burnout 2 - Point of Impact | NTSC-U | SLUS_204.97 | Config fixes graphical bugs. |
-| Burnout 2 - Point of Impact | PAL | SLES_510.44 | Config fixes graphical bugs. |
-| Burnout 3 - Takedown | NTSC-U | SLUS_210.50 | Config fixes Virtual Memory Card issues. |
-| Bust-A-Bloc | NTSC-J | SLKA_150.30 | Config fixes SPS issues (Tamsoft engine game). |
-| Car Racing Challenge | PAL | SLES_534.85 | Config fixes SPS issues (Tamsoft engine game). |
-| Crash Bandicoot Twinsanity | NTSC-U | SLUS_209.09 | Config fixes loading saved game freeze and random ingame freezes. Use game v2.00, as in v1.00 there is possible freeze after Dingodile boss fight - this is a fault of the unpatched game itself, not an emulation issue. |
-| Crash Tag Team Racing | NTSC-U | SLUS_211.91 | Config fixes coin FPS issue. |
-| Crash Twinsanity | PAL | SLES_525.68 | Config fixes loading saved game freeze and random ingame freezes. Use game v2.00, as in v1.00 there is possible freeze after Dingodile boss fight - this is a fault of the unpatched game itself, not an emulation issue. |
-| Crazy Taxi | NTSC-U | SLUS_202.02 | Config for NTSC-U version works properly with 'Greatest Hits' version of the game, but it also requires fixed gxemu. |
-| The Daibijin | NTSC-J | SLPM_624.84 | Config fixes SPS issues (Tamsoft engine game). |
-| The Daikiju | NTSC-J | SLPM_624.93 | Config fixes SPS issues (Tamsoft engine game). |
-| David Douillet Judo | PAL | SLES_543.66 | Config fixes missing portraits and stats while competitors selecting. |
-| Dawn of Mana | NTSC-U | SLUS_215.74 | Config fixes missing geometry and looped sound effects. |
-| Demolition Girl | PAL | SLES_534.03 | Config fixes SPS issues (Tamsoft engine game). |
-| Disney's Golf | NTSC-U | SLUS_205.32 | Config fixes all freezes (VIF1 related). Screen turns black on crossfades and while using shot meter. Shot meter is still visible. Framerate wise the game is fine and can be played through. |
-| Evil Twin - Cyprien's Chronicles | PAL | SLES_502.01 | Config fixes PS3 shutdown when creating save file. |
-| Evolution Snowboarding | NTSC-U | SLUS_205.46 | Config, fixes blackscreen after Konami logo. |
-| Evolution Snowboarding | PAL | SLES_513.92 | Config fixes black screen after Konami logo. |
-| Evolution Snowboarding | NTSC-J | SLKA_250.14 | Config fixes black screen after Konami logo. |
-| Fighting Angels | PAL | SLES_534.08 | Config fixes SPS issues (Tamsoft engine game). |
-| The Gassen Sekigahara | NTSC-J | SLPM_624.77 | Config fixes SPS issues (Tamsoft engine game). |
-| Gran Turismo 3 - A-Spec | NTSC-U | SCUS_971.02 | Config fixes the FMV stuttering, image shaking on car selection screen |
-| Growlanser Generations [Disc 1] | NTSC-U | SLUS_207.58 | Config fixes freeze on save game attempt. |
-| Growlanser Generations [Disc 2] | NTSC-U | SLUS_207.59 | Config fixes freeze on save game attempt. |
-| International Cue Club | PAL | SLES_509.14 | Config fixes flickering graphics. |
-| Jak 3 | PAL | SLES_536.17 | Config fixes texture flickering caused by mipmapping |
-| Jak and Daxter - The Precursor Legacy | PAL | SCES_503.61 | Config fixes short term freezes when picking up specific precursor orbs. Frame rate drops often but does not affect game speed. |
-| Jak and Daxter - The Precursor Legacy | NTSC-U | SCUS_971.24 | Config fixes short term freezes when picking up specific precursor orbs. Frame rate drops often but does not affect game speed. |
-| Jaws Unleashed | NTSC-U | SLUS_210.62 | Config fixes random freezing issue |
-| Jaws Unleashed | PAL | SLES_541.70 | Config fixes random freezing issue. |
-| Klonoa 2 - Lunatea's Veil | NTSC-U | SLUS_201.51 | Config fixes missing sounds. |
-| Kourin! Zokusha Goddo! | NTSC-J | SLPS_204.52 | Config fixes SPS issues (Tamsoft engine game). Flashing graphics and some slowdown. |
-| Kuon | NTSC-U | SLUS_210.07 | Config fixes the bugged Sugoroku minigame. |
-| Kyousou! Tansha King | NTSC-J | SLPM_623.99 | Config fixes SPS issues (Tamsoft engine game). |
-| Makai Tensei | NTSC-J | SLPM_653.29 | Config fixes SPS issues (Tamsoft engine game). |
-| Makai Tensei | NTSC-J | SLPM_658.72 | Config fixes SPS issues (Tamsoft engine game). |
-| Maxxed Out Racing-Nitro | PAL | SLES_545.45 | Config fixes SPS issues (Tamsoft engine game). |
-| McDonald's Original Happy Disc | NTSC-J | SCPM_851.01 | Config fixes crash after intro of Piposaru 2001 demo. PaRappa the Rapper 2 demo is playable. |
-| Metal Gear Solid 3 - Subsistence | NTSC-U | SLUS_212.43 | Config fixes SPS appearence when gun is raised, also enables Online play. |
-| Mike Tyson - Heavyweight Boxing | NTSC-U | SLUS_203.45 | Config fixes SPS and major graphical glitches on characters and initial splash screen freeze. |
-| Motorbike King | PAL | SLES_525.18 | Config fixes SPS issues (Tamsoft engine game). |
-| Musashi Samurai Legend | NTSC-U | SLUS_209.83 | Config fixes graphical glitches and wrong NPC calculations. |
-| Myst III - Exile | PAL | SLES_507.26 | Config fixes texture glitches and stuttering. |
-| Oanechan Go Go Go! | NTSC-J | SLPS_204.89 | Config fixes SPS issues (Tamsoft engine game). |
-| Orphen - Scion of Sorcery | NTSC-U | SLUS_200.11 | Config fixes freezing FMV sequences. Character voices in cutscenes are still doubled. |
-| Party Girls | PAL | SLES_534.06 | Config fixes massive SPS (Tamsoft engine game). |
-| Party Girls | NTSC-J | SLKA_150.42 | Config fixes SPS issues (Tamsoft engine game). |
-| Pipo Saru [Ape Escape] 2001 | NTSC-J | SCPS_110.14 | Config fixes black screen after intro. |
-| R Racing Evolution | NTSC-U | SLUS_207.21 | Config fixes minor SPS issues at the beginning of some races and while passing other cars. A slowdown appears on race start and overall speed is lowered, other than that game runs fine. |
-| Rally Fusion - Race of Champions | NTSC-U | SLUS_203.61 | Config (required for both PAL and NTSC versions) fixes freezing upon entering a race and opening start menu bug/freeze. |
-| Rally Fusion - Race of Champions | PAL | SLES_509.97 | Config (required for both PAL and NTSC versions) fixes freezing upon entering a race, opening start menu bug/freeze, and significantly improves frame rate. |
-| Resident Evil Gun Survivor 2 - Code Veronica | PAL | SLES_506.50 | Config from netemu increases FPS a bit, but there are still FPS slowdowns. The game is playable though. |
-| The Runaway - Toumei Highway | NTSC-J | SLPM_625.64 | Config fixes SPS issues (Tamsoft engine game). |
-| Secret Agent Clank | NTSC-U | SCUS_976.23 | Config fixes walk/run calculations and Fort Sprocket softlock caused by robot falling through floor. |
-| Shadow of Zorro, The | PAL | SLES_506.62 | Config fixes PS3 shutdown when creating save file. |
-| Shin Megami Tensei - Persona 4 | NTSC-U | SLUS_217.82 | Config restores missing HUD elements. |
-| Shogun's Blade | PAL | SLES_534.00 | Config fixes SPS issues (Tamsoft engine game). |
-| Silent Hill 2 | NTSC-U | SLUS_202.28 | Config fixes James disappearing leg issue. |
-| Silent Hill 2 - Director's Cut | PAL | SLES_511.56 | Config fixes James disappearing leg issue. |
-| Silent Hill 3 | NTSC-U | SLUS_206.22 | Config fixes camera inaccuracies. |
-| The Silent Hill Collection [Disc1of3] | PAL | SLES_503.82 | Config fixes James disappearing leg issue. |
-| SNK vs Capcom Chaos | NTSC-J | SLPS_253.16 | Config fixes slowdown and flickering graphics. |
-| SSX | NTSC-U | SLUS_200.95 | Config fixes freezes |
-| Star Wars - Clone Wars | NTSC-U | SLUS_205.10 | Config fixes freeze in 1st mission |
-| Star Wars - The Clone Wars - Republic Heroes | NTSC-U | SLUS_219.13 | Config fixes empty subtitles, lack of UI elements (icons, text, etc.) |
-| Star Wars - The Force Unleashed | PAL | SLES_546.58 | Config fixes graphical glitches, subtitles, and QTE buttons. |
-| Star Wars - The Force Unleashed | NTSC-U | SLUS_216.14 | Config fixes graphical issues: in-game, UI, hidden subtitles |
-| Street Racing Syndicate | NTSC-U | SLUS_205.82 | Config fixes freeze at splash screen on version 1.03. Disc version 2.00 works fine without custom config. |
-| Summoner 2 | NTSC-U | SLUS_204.48 | Config fixes black screen during the opening FMV sequence. |
-| Tales of the Abyss | NTSC-J | SLPS_255.86 | Config fixes freeze at Choral Castle. |
-| Tales of the Abyss | NTSC-U | SLUS_213.86 | Config fixes freeze at Choral Castle. |
-| The Toubou Prisoner | NTSC-J | SLPS_204.80 | Config fixes SPS issues (Tamsoft engine game). |
-| True Crime - New York City | NTSC-J | SLPM_664.73 | Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others. |
-| True Crime - New York City | PAL | SLES_536.16 | Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others. |
-| True Crime - New York City | PAL | SLES_536.18 | Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others. |
-| True Crime - New York City | NTSC-U | SLUS_211.06 | Config fixes freeze on opening menu screen, major controls/animation issues and freezes near Grand Central Station (and possibly others). |
-| Wallace & Gromit in Project Zoo | NTSC-U | SLUS_206.47 | Config fixes black screen |
-| Women's Swim Meet | NTSC-J | SLPM_625.34 | Config fixes SPS issues (Tamsoft engine game). |
-| Xenosaga - Episode I - Der Wille zur Macht | NTSC-U | SLUS_204.69 | Config fixes immovable character at AGWS shop. |
-| Yakuza | NTSC-U | SLUS_213.48 | Config fixes game crashes in Ch.7 when loading "Mysterious Organization" and Ch.13 when loading "MBI.", Ch.3 after the funeral and a fight scene in Ch. 5. and in Ch.10 in mid-battle. |
+<table>
+<thead><tr><th>Game Title</th><th>Region</th><th>Config File ID</th><th>Config description</th></tr></thead>
+<tbody>
+<tr><td>Backyard Wrestling - Don't Try This At Home</td><td nowrap>NTSC-U</td><td>SLUS_206.38</td><td>Config fixes graphical glitches (VIF1 timing issue), but game still suffers huge frame drops and sound distortion.</td></tr>
+<tr><td>Backyard Wrestling 2 - There Goes the Neighborhood</td><td nowrap>NTSC-U</td><td>SLUS_210.43</td><td>Config fixes textures flickering and screen shaking almost complately, but sound distortion is still present.</td></tr>
+<tr><td>Bard's Tale</td><td nowrap>PAL</td><td>SLES_531.54</td><td>Config fixes flickering textures.</td></tr>
+<tr><td>Bard's Tale, The</td><td nowrap>NTSC-U</td><td>SLUS_208.03</td><td>Config fixes flickering textures.</td></tr>
+<tr><td>The Battleship</td><td nowrap>NTSC-J</td><td>SLPM_624.97</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Black</td><td nowrap>NTSC-U</td><td>SLUS_213.76</td><td>Config fixes character teleporting and camera spinning at end of fourth level.</td></tr>
+<tr><td>Blockbuster Hyper</td><td nowrap>NTSC-J</td><td>SLPM_621.71</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Bloodrayne 2</td><td nowrap>NTSC-U</td><td>SLUS_208.62</td><td>Config fixes white diagonal on-screen line and pixelated texture glitches.</td></tr>
+<tr><td>Buffy the Vampire Slayer - Chaos Bleeds</td><td nowrap>NTSC-U</td><td>SLUS_205.66</td><td>Config fixes VIF1 issues (missing textures, overall slowdown).</td></tr>
+<tr><td>Buffy the Vampire Slayer - Chaos Bleeds</td><td nowrap>PAL</td><td>SLES_518.90</td><td>Config fixes flickering graphics and frame drops (VIF1 issue).</td></tr>
+<tr><td>Burnout 2 - Point of Impact</td><td nowrap>NTSC-U</td><td>SLUS_204.97</td><td>Config fixes graphical bugs.</td></tr>
+<tr><td>Burnout 2 - Point of Impact</td><td nowrap>PAL</td><td>SLES_510.44</td><td>Config fixes graphical bugs.</td></tr>
+<tr><td>Burnout 3 - Takedown</td><td nowrap>NTSC-U</td><td>SLUS_210.50</td><td>Config fixes Virtual Memory Card issues.</td></tr>
+<tr><td>Bust-A-Bloc</td><td nowrap>NTSC-J</td><td>SLKA_150.30</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Car Racing Challenge</td><td nowrap>PAL</td><td>SLES_534.85</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Crash Bandicoot Twinsanity</td><td nowrap>NTSC-U</td><td>SLUS_209.09</td><td>Config fixes loading saved game freeze and random ingame freezes. Use game v2.00, as in v1.00 there is possible freeze after Dingodile boss fight - this is a fault of the unpatched game itself, not an emulation issue.</td></tr>
+<tr><td>Crash Tag Team Racing</td><td nowrap>NTSC-U</td><td>SLUS_211.91</td><td>Config fixes coin FPS issue.</td></tr>
+<tr><td>Crash Twinsanity</td><td nowrap>PAL</td><td>SLES_525.68</td><td>Config fixes loading saved game freeze and random ingame freezes. Use game v2.00, as in v1.00 there is possible freeze after Dingodile boss fight - this is a fault of the unpatched game itself, not an emulation issue.</td></tr>
+<tr><td>Crazy Taxi</td><td nowrap>NTSC-U</td><td>SLUS_202.02</td><td>Config for NTSC-U version works properly with 'Greatest Hits' version of the game, but it also requires fixed gxemu.</td></tr>
+<tr><td>The Daibijin</td><td nowrap>NTSC-J</td><td>SLPM_624.84</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>The Daikiju</td><td nowrap>NTSC-J</td><td>SLPM_624.93</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>David Douillet Judo</td><td nowrap>PAL</td><td>SLES_543.66</td><td>Config fixes missing portraits and stats while competitors selecting.</td></tr>
+<tr><td>Dawn of Mana</td><td nowrap>NTSC-U</td><td>SLUS_215.74</td><td>Config fixes missing geometry and looped sound effects.</td></tr>
+<tr><td>Demolition Girl</td><td nowrap>PAL</td><td>SLES_534.03</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Disney's Golf</td><td nowrap>NTSC-U</td><td>SLUS_205.32</td><td>Config fixes all freezes (VIF1 related). Screen turns black on crossfades and while using shot meter. Shot meter is still visible. Framerate wise the game is fine and can be played through.</td></tr>
+<tr><td>Evil Twin - Cyprien's Chronicles</td><td nowrap>PAL</td><td>SLES_502.01</td><td>Config fixes PS3 shutdown when creating save file.</td></tr>
+<tr><td>Evolution Snowboarding</td><td nowrap>NTSC-U</td><td>SLUS_205.46</td><td>Config, fixes blackscreen after Konami logo.</td></tr>
+<tr><td>Evolution Snowboarding</td><td nowrap>PAL</td><td>SLES_513.92</td><td>Config fixes black screen after Konami logo.</td></tr>
+<tr><td>Evolution Snowboarding</td><td nowrap>NTSC-J</td><td>SLKA_250.14</td><td>Config fixes black screen after Konami logo.</td></tr>
+<tr><td>Fighting Angels</td><td nowrap>PAL</td><td>SLES_534.08</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>The Gassen Sekigahara</td><td nowrap>NTSC-J</td><td>SLPM_624.77</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Gran Turismo 3 - A-Spec</td><td nowrap>NTSC-U</td><td>SCUS_971.02</td><td>Config fixes the FMV stuttering, image shaking on car selection screen</td></tr>
+<tr><td>Growlanser Generations [Disc 1]</td><td nowrap>NTSC-U</td><td>SLUS_207.58</td><td>Config fixes freeze on save game attempt.</td></tr>
+<tr><td>Growlanser Generations [Disc 2]</td><td nowrap>NTSC-U</td><td>SLUS_207.59</td><td>Config fixes freeze on save game attempt.</td></tr>
+<tr><td>International Cue Club</td><td nowrap>PAL</td><td>SLES_509.14</td><td>Config fixes flickering graphics.</td></tr>
+<tr><td>Jak 3</td><td nowrap>PAL</td><td>SLES_536.17</td><td>Config fixes texture flickering caused by mipmapping</td></tr>
+<tr><td>Jak and Daxter - The Precursor Legacy</td><td nowrap>PAL</td><td>SCES_503.61</td><td>Config fixes short term freezes when picking up specific precursor orbs. Frame rate drops often but does not affect game speed.</td></tr>
+<tr><td>Jak and Daxter - The Precursor Legacy</td><td nowrap>NTSC-U</td><td>SCUS_971.24</td><td>Config fixes short term freezes when picking up specific precursor orbs. Frame rate drops often but does not affect game speed.</td></tr>
+<tr><td>Jaws Unleashed</td><td nowrap>NTSC-U</td><td>SLUS_210.62</td><td>Config fixes random freezing issue</td></tr>
+<tr><td>Jaws Unleashed</td><td nowrap>PAL</td><td>SLES_541.70</td><td>Config fixes random freezing issue.</td></tr>
+<tr><td>Klonoa 2 - Lunatea's Veil</td><td nowrap>NTSC-U</td><td>SLUS_201.51</td><td>Config fixes missing sounds.</td></tr>
+<tr><td>Kourin! Zokusha Goddo!</td><td nowrap>NTSC-J</td><td>SLPS_204.52</td><td>Config fixes SPS issues (Tamsoft engine game). Flashing graphics and some slowdown.</td></tr>
+<tr><td>Kuon</td><td nowrap>NTSC-U</td><td>SLUS_210.07</td><td>Config fixes the bugged Sugoroku minigame.</td></tr>
+<tr><td>Kyousou! Tansha King</td><td nowrap>NTSC-J</td><td>SLPM_623.99</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Makai Tensei</td><td nowrap>NTSC-J</td><td>SLPM_653.29</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Makai Tensei</td><td nowrap>NTSC-J</td><td>SLPM_658.72</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Maxxed Out Racing-Nitro</td><td nowrap>PAL</td><td>SLES_545.45</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>McDonald's Original Happy Disc</td><td nowrap>NTSC-J</td><td>SCPM_851.01</td><td>Config fixes crash after intro of Piposaru 2001 demo. PaRappa the Rapper 2 demo is playable.</td></tr>
+<tr><td>Metal Gear Solid 3 - Subsistence</td><td nowrap>NTSC-U</td><td>SLUS_212.43</td><td>Config fixes SPS appearence when gun is raised, also enables Online play.</td></tr>
+<tr><td>Mike Tyson - Heavyweight Boxing</td><td nowrap>NTSC-U</td><td>SLUS_203.45</td><td>Config fixes SPS and major graphical glitches on characters and initial splash screen freeze.</td></tr>
+<tr><td>Motorbike King</td><td nowrap>PAL</td><td>SLES_525.18</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Musashi Samurai Legend</td><td nowrap>NTSC-U</td><td>SLUS_209.83</td><td>Config fixes graphical glitches and wrong NPC calculations.</td></tr>
+<tr><td>Myst III - Exile</td><td nowrap>PAL</td><td>SLES_507.26</td><td>Config fixes texture glitches and stuttering.</td></tr>
+<tr><td>Oanechan Go Go Go!</td><td nowrap>NTSC-J</td><td>SLPS_204.89</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Orphen - Scion of Sorcery</td><td nowrap>NTSC-U</td><td>SLUS_200.11</td><td>Config fixes freezing FMV sequences. Character voices in cutscenes are still doubled.</td></tr>
+<tr><td>Party Girls</td><td nowrap>PAL</td><td>SLES_534.06</td><td>Config fixes massive SPS (Tamsoft engine game).</td></tr>
+<tr><td>Party Girls</td><td nowrap>NTSC-J</td><td>SLKA_150.42</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Pipo Saru [Ape Escape] 2001</td><td nowrap>NTSC-J</td><td>SCPS_110.14</td><td>Config fixes black screen after intro.</td></tr>
+<tr><td>R Racing Evolution</td><td nowrap>NTSC-U</td><td>SLUS_207.21</td><td>Config fixes minor SPS issues at the beginning of some races and while passing other cars. A slowdown appears on race start and overall speed is lowered, other than that game runs fine.</td></tr>
+<tr><td>Rally Fusion - Race of Champions</td><td nowrap>NTSC-U</td><td>SLUS_203.61</td><td>Config (required for both PAL and NTSC versions) fixes freezing upon entering a race and opening start menu bug/freeze.</td></tr>
+<tr><td>Rally Fusion - Race of Champions</td><td nowrap>PAL</td><td>SLES_509.97</td><td>Config (required for both PAL and NTSC versions) fixes freezing upon entering a race, opening start menu bug/freeze, and significantly improves frame rate.</td></tr>
+<tr><td>Resident Evil Gun Survivor 2 - Code Veronica</td><td nowrap>PAL</td><td>SLES_506.50</td><td>Config from netemu increases FPS a bit, but there are still FPS slowdowns. The game is playable though.</td></tr>
+<tr><td>The Runaway - Toumei Highway</td><td nowrap>NTSC-J</td><td>SLPM_625.64</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Secret Agent Clank</td><td nowrap>NTSC-U</td><td>SCUS_976.23</td><td>Config fixes walk/run calculations and Fort Sprocket softlock caused by robot falling through floor.</td></tr>
+<tr><td>Shadow of Zorro, The</td><td nowrap>PAL</td><td>SLES_506.62</td><td>Config fixes PS3 shutdown when creating save file.</td></tr>
+<tr><td>Shin Megami Tensei - Persona 4</td><td nowrap>NTSC-U</td><td>SLUS_217.82</td><td>Config restores missing HUD elements.</td></tr>
+<tr><td>Shogun's Blade</td><td nowrap>PAL</td><td>SLES_534.00</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Silent Hill 2</td><td nowrap>NTSC-U</td><td>SLUS_202.28</td><td>Config fixes James disappearing leg issue.</td></tr>
+<tr><td>Silent Hill 2 - Director's Cut</td><td nowrap>PAL</td><td>SLES_511.56</td><td>Config fixes James disappearing leg issue.</td></tr>
+<tr><td>Silent Hill 3</td><td nowrap>NTSC-U</td><td>SLUS_206.22</td><td>Config fixes camera inaccuracies.</td></tr>
+<tr><td>The Silent Hill Collection</td><td nowrap>PAL</td><td>SLES_503.82</td><td>Config fixes James disappearing leg issue.</td></tr>
+<tr><td>SNK vs Capcom Chaos</td><td nowrap>NTSC-J</td><td>SLPS_253.16</td><td>Config fixes slowdown and flickering graphics.</td></tr>
+<tr><td>SSX</td><td nowrap>NTSC-U</td><td>SLUS_200.95</td><td>Config fixes freezes</td></tr>
+<tr><td>Star Wars - Clone Wars</td><td nowrap>NTSC-U</td><td>SLUS_205.10</td><td>Config fixes freeze in 1st mission</td></tr>
+<tr><td>Star Wars - The Clone Wars - Republic Heroes</td><td nowrap>NTSC-U</td><td>SLUS_219.13</td><td>Config fixes empty subtitles, lack of UI elements (icons, text, etc.)</td></tr>
+<tr><td>Star Wars - The Force Unleashed</td><td nowrap>PAL</td><td>SLES_546.58</td><td>Config fixes graphical glitches, subtitles, and QTE buttons.</td></tr>
+<tr><td>Star Wars - The Force Unleashed</td><td nowrap>NTSC-U</td><td>SLUS_216.14</td><td>Config fixes graphical issues: in-game, UI, hidden subtitles</td></tr>
+<tr><td>Street Racing Syndicate</td><td nowrap>NTSC-U</td><td>SLUS_205.82</td><td>Config fixes freeze at splash screen on version 1.03. Disc version 2.00 works fine without custom config.</td></tr>
+<tr><td>Summoner 2</td><td nowrap>NTSC-U</td><td>SLUS_204.48</td><td>Config fixes black screen during the opening FMV sequence.</td></tr>
+<tr><td>Tales of the Abyss</td><td nowrap>NTSC-J</td><td>SLPS_255.86</td><td>Config fixes freeze at Choral Castle.</td></tr>
+<tr><td>Tales of the Abyss</td><td nowrap>NTSC-U</td><td>SLUS_213.86</td><td>Config fixes freeze at Choral Castle.</td></tr>
+<tr><td>The Toubou Prisoner</td><td nowrap>NTSC-J</td><td>SLPS_204.80</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>True Crime - New York City</td><td nowrap>NTSC-J</td><td>SLPM_664.73</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
+<tr><td>True Crime - New York City</td><td nowrap>PAL</td><td>SLES_536.16</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
+<tr><td>True Crime - New York City</td><td nowrap>PAL</td><td>SLES_536.18</td><td>Config fixes freeze on opening menu screen and major controls/animation issues (VU0 delay slot issue). Updated config additionally fixes freezes near Grand Central Station and possibly others.</td></tr>
+<tr><td>True Crime - New York City</td><td nowrap>NTSC-U</td><td>SLUS_211.06</td><td>Config fixes freeze on opening menu screen, major controls/animation issues and freezes near Grand Central Station (and possibly others).</td></tr>
+<tr><td>Wallace & Gromit in Project Zoo</td><td nowrap>NTSC-U</td><td>SLUS_206.47</td><td>Config fixes black screen</td></tr>
+<tr><td>Women's Swim Meet</td><td nowrap>NTSC-J</td><td>SLPM_625.34</td><td>Config fixes SPS issues (Tamsoft engine game).</td></tr>
+<tr><td>Xenosaga - Episode I - Der Wille zur Macht</td><td nowrap>NTSC-U</td><td>SLUS_204.69</td><td>Config fixes immovable character at AGWS shop.</td></tr>
+<tr><td>Yakuza</td><td nowrap>NTSC-U</td><td>SLUS_213.48</td><td>Config fixes game crashes in Ch.7 when loading "Mysterious Organization" and Ch.13 when loading "MBI.", Ch.3 after the funeral and a fight scene in Ch. 5. and in Ch.10 in mid-battle.</td></tr>
+</tbody>
+</table>
 
 ## Region Codes
 
