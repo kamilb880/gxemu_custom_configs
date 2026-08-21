@@ -1,0 +1,160 @@
+name: Rewrite Commit History
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build orphan branch with correct commit messages
+        run: |
+          declare -A GAME_TITLES=(
+          ["SLUS_210.43"]="Backyard Wrestling 2 - There Goes the Neighborhood [NTSC-U]"
+          ["SLES_531.54"]="Bard's Tale [PAL]"
+          ["SLUS_208.03"]="Bard's Tale, The [NTSC-U]"
+          ["SLPM_624.97"]="The Battleship [NTSC-J]"
+          ["SLUS_213.76"]="Black [NTSC-U]"
+          ["SLPM_621.71"]="Blockbuster Hyper [NTSC-J]"
+          ["SLUS_208.62"]="Bloodrayne 2 [NTSC-U]"
+          ["SLUS_205.66"]="Buffy the Vampire Slayer - Chaos Bleeds [NTSC-U]"
+          ["SLES_518.90"]="Buffy the Vampire Slayer - Chaos Bleeds [PAL]"
+          ["SLUS_204.97"]="Burnout 2 - Point of Impact [NTSC-U]"
+          ["SLES_510.44"]="Burnout 2 - Point of Impact [PAL]"
+          ["SLUS_210.50"]="Burnout 3 - Takedown [NTSC-U]"
+          ["SLKA_150.30"]="Bust-A-Bloc [NTSC-J]"
+          ["SLES_534.85"]="Car Racing Challenge [PAL]"
+          ["SLUS_209.09"]="Crash Bandicoot Twinsanity [NTSC-U]"
+          ["SLUS_211.91"]="Crash Tag Team Racing [NTSC-U]"
+          ["SLES_525.68"]="Crash Twinsanity [PAL]"
+          ["SLUS_202.02"]="Crazy Taxi [NTSC-U]"
+          ["SLPM_624.84"]="The Daibijin [NTSC-J]"
+          ["SLPM_624.93"]="The Daikiju [NTSC-J]"
+          ["SLES_543.66"]="David Douillet Judo [PAL]"
+          ["SLUS_215.74"]="Dawn of Mana [NTSC-U]"
+          ["SLES_534.03"]="Demolition Girl [PAL]"
+          ["SLUS_205.32"]="Disney's Golf [NTSC-U]"
+          ["SLES_502.01"]="Evil Twin - Cyprien's Chronicles [PAL]"
+          ["SLUS_205.46"]="Evolution Snowboarding [NTSC-U]"
+          ["SLES_513.92"]="Evolution Snowboarding [PAL]"
+          ["SLKA_250.14"]="Evolution Snowboarding [NTSC-J]"
+          ["SLES_534.08"]="Fighting Angels [PAL]"
+          ["SLPM_624.77"]="The Gassen Sekigahara [NTSC-J]"
+          ["SCUS_971.02"]="Gran Turismo 3 - A-Spec [NTSC-U]"
+          ["SLUS_207.58"]="Growlanser Generations [Disc 1] [NTSC-U]"
+          ["SLUS_207.59"]="Growlanser Generations [Disc 2] [NTSC-U]"
+          ["SLES_509.14"]="International Cue Club [PAL]"
+          ["SLES_536.17"]="Jak 3 [PAL]"
+          ["SCES_503.61"]="Jak and Daxter - The Precursor Legacy [PAL]"
+          ["SCUS_971.24"]="Jak and Daxter - The Precursor Legacy [NTSC-U]"
+          ["SLUS_210.62"]="Jaws Unleashed [NTSC-U]"
+          ["SLES_541.70"]="Jaws Unleashed [PAL]"
+          ["SLUS_201.51"]="Klonoa 2 - Lunatea's Veil [NTSC-U]"
+          ["SLPS_204.52"]="Kourin! Zokusha Goddo! [NTSC-J]"
+          ["SLUS_210.07"]="Kuon [NTSC-U]"
+          ["SLPM_623.99"]="Kyousou! Tansha King [NTSC-J]"
+          ["SLPM_653.29"]="Makai Tensei [NTSC-J]"
+          ["SLPM_658.72"]="Makai Tensei [NTSC-J]"
+          ["SLES_545.45"]="Maxxed Out Racing-Nitro [PAL]"
+          ["SCPM_851.01"]="McDonald's Original Happy Disc [NTSC-J]"
+          ["SLUS_212.43"]="Metal Gear Solid 3 - Subsistence [NTSC-U]"
+          ["SLUS_203.45"]="Mike Tyson - Heavyweight Boxing [NTSC-U]"
+          ["SLES_525.18"]="Motorbike King [PAL]"
+          ["SLUS_209.83"]="Musashi Samurai Legend [NTSC-U]"
+          ["SLES_507.26"]="Myst III - Exile [PAL]"
+          ["SLPS_204.89"]="Oanechan Go Go Go! [NTSC-J]"
+          ["SLUS_200.11"]="Orphen - Scion of Sorcery [NTSC-U]"
+          ["SLES_534.06"]="Party Girls [PAL]"
+          ["SLKA_150.42"]="Party Girls [NTSC-J]"
+          ["SCPS_110.14"]="Pipo Saru [Ape Escape] 2001 [NTSC-J]"
+          ["SLUS_207.21"]="R Racing Evolution [NTSC-U]"
+          ["SLUS_203.61"]="Rally Fusion - Race of Champions [NTSC-U]"
+          ["SLES_509.97"]="Rally Fusion - Race of Champions [PAL]"
+          ["SLES_506.50"]="Resident Evil Gun Survivor 2 - Code Veronica [PAL]"
+          ["SLPM_625.64"]="The Runaway - Toumei Highway [NTSC-J]"
+          ["SCUS_976.23"]="Secret Agent Clank [NTSC-U]"
+          ["SLES_506.62"]="Shadow of Zorro, The [PAL]"
+          ["SLUS_217.82"]="Shin Megami Tensei - Persona 4 [NTSC-U]"
+          ["SLES_534.00"]="Shogun's Blade [PAL]"
+          ["SLUS_202.28"]="Silent Hill 2 [NTSC-U]"
+          ["SLES_511.56"]="Silent Hill 2 - Director's Cut [PAL]"
+          ["SLUS_206.22"]="Silent Hill 3 [NTSC-U]"
+          ["SLES_503.82"]="The Silent Hill Collection [Disc1of3] [PAL]"
+          ["SLPS_253.16"]="SNK vs Capcom Chaos [NTSC-J]"
+          ["SLUS_200.95"]="SSX [NTSC-U]"
+          ["SLUS_205.10"]="Star Wars - Clone Wars [NTSC-U]"
+          ["SLUS_219.13"]="Star Wars - The Clone Wars - Republic Heroes [NTSC-U]"
+          ["SLES_546.58"]="Star Wars - The Force Unleashed [PAL]"
+          ["SLUS_216.14"]="Star Wars - The Force Unleashed [NTSC-U]"
+          ["SLUS_205.82"]="Street Racing Syndicate [NTSC-U]"
+          ["SLUS_204.48"]="Summoner 2 [NTSC-U]"
+          ["SLPS_255.86"]="Tales of the Abyss [NTSC-J]"
+          ["SLUS_213.86"]="Tales of the Abyss [NTSC-U]"
+          ["SLPS_204.80"]="The Toubou Prisoner [NTSC-J]"
+          ["SLPM_664.73"]="True Crime - New York City [NTSC-J]"
+          ["SLES_536.16"]="True Crime - New York City [PAL]"
+          ["SLES_536.18"]="True Crime - New York City [PAL]"
+          ["SLUS_211.06"]="True Crime - New York City [NTSC-U]"
+          ["SLUS_206.47"]="Wallace & Gromit in Project Zoo [NTSC-U]"
+          ["SLPM_625.34"]="Women's Swim Meet [NTSC-J]"
+          ["SLUS_204.69"]="Xenosaga - Episode I - Der Wille zur Macht [NTSC-U]"
+          ["SLUS_213.48"]="Yakuza [NTSC-U]"
+          ["SLUS_206.38"]="| Backyard Wrestling - Don't Try This At Home [NTSC-U]"
+          )
+
+          # Save README and workflows before wiping history
+          cp README.md /tmp/README.md 2>/dev/null || true
+          cp -r .github /tmp/.github 2>/dev/null || true
+
+          # Create orphan branch with clean history
+          git checkout --orphan clean-history
+          git rm -rf . --quiet
+
+          # Restore README and workflows into the clean branch
+          cp /tmp/README.md . 2>/dev/null || true
+          cp -r /tmp/.github . 2>/dev/null || true
+          git add README.md .github/ 2>/dev/null || true
+          git commit -m "Add README and workflow configs" > /dev/null 2>&1 || true
+
+          # Restore all config files from main
+          git checkout main -- . 2>/dev/null || git checkout master -- . 2>/dev/null
+
+          # Unstage README and .github so we don't re-commit them
+          git restore --staged README.md .github/ > /dev/null 2>&1 || true
+
+          # Commit each config file individually with correct message
+          git reset HEAD -- . > /dev/null 2>&1
+
+          for file_id in "${!GAME_TITLES[@]}"; do
+            if [ -f "$file_id" ]; then
+              title="${GAME_TITLES[$file_id]}"
+              git add "$file_id"
+              git commit -m "$title" --allow-empty > /dev/null 2>&1
+              echo "Committed: $file_id -> $title"
+            fi
+          done
+
+          echo "Done creating commits"
+
+      - name: Force push clean history to main
+        run: |
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push origin clean-history:main --force
+          echo "Successfully pushed clean history to main"
